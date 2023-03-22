@@ -212,6 +212,7 @@ header {
   background-image: url("../../assets/icons/Arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .right-arrow {
@@ -259,6 +260,57 @@ header {
   font-size: 1.25rem;
   color: #545454;
   letter-spacing: 0.07rem;
+}
+
+.donate {
+  display: flex;
+  padding-top: 4.2rem;
+  padding-bottom: 6.25rem;
+  padding-left: 9rem;
+  gap: 1.875rem;
+}
+.donate > img {
+  height: fit-content;
+  display: block;
+  padding-top: 0.6rem;
+}
+
+.donate-content {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: baseline;
+}
+
+.donate__bank-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.625rem;
+  font-size: 0.9375rem;
+  font-family: Georgia;
+  letter-spacing: 0.055rem;
+}
+
+.donate__credit-card {
+  display: flex;
+  gap: 0.9375rem;
+  padding: 10px 14px;
+  align-items: center;
+  background-color: #f1cdb3;
+  border-radius: 9px;
+  font-size: 20px;
+  color: #545454;
+  font-family: Georgia;
+  letter-spacing: 0.075rem;
+}
+
+.donate__text {
+  font-family: Arial;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
 }
 
 /*# sourceMappingURL=style.css.map */
