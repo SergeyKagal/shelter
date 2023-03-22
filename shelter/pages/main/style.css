@@ -191,7 +191,7 @@ header {
   border: 2px solid #f1cdb3;
 }
 
-.link-button {
+.link-button, .help__card_title {
   font-size: 1.0625rem;
   color: #292929;
   font-weight: 500;
@@ -201,6 +201,7 @@ header {
   justify-content: center;
   border-radius: 1.625rem;
   height: 3.25rem;
+  font-family: Georgia;
 }
 
 .our-friends__slider_button {
@@ -220,7 +221,44 @@ header {
 .our-friends__link {
   background-color: #f1cdb3;
   padding: 0 2.8125rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.07rem;
+}
+
+.help-content {
+  padding-top: 4.14rem;
+  padding-bottom: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.help__title {
+  max-width: 20rem;
+  text-align: center;
+}
+
+.help__cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 64.125rem;
+  gap: 2.7rem 7.5rem;
+  justify-content: center;
+}
+
+.help__cards_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 7.8rem;
+  justify-content: space-between;
+}
+
+.help__card_title {
+  font-size: 1.25rem;
+  color: #545454;
+  letter-spacing: 0.07rem;
 }
 
 /*# sourceMappingURL=style.css.map */
