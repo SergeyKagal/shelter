@@ -41,12 +41,17 @@ header, footer {
   flex-direction: column;
   gap: 10px;
 }
+.header-top__title:hover .header-top__title_title, .header-top__title:hover .header-top__title_description {
+  transition: 0.3s;
+  text-shadow: #f1cdb3 2px 2px 7px;
+}
 
 .header-top__title_title {
   font-family: "Georgia";
   color: #f1cdb3;
   font-weight: 300;
   letter-spacing: 0.06em;
+  transition: text-shadow 0.3s;
 }
 
 .header-top__title_description {
@@ -55,6 +60,7 @@ header, footer {
   font-family: Arial;
   letter-spacing: 0.1em;
   padding-left: 3px;
+  transition: text-shadow 0.3s;
 }
 
 .menu__list {
